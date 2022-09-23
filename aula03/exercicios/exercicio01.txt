@@ -1,0 +1,12 @@
+FrontEnd
+Aula 03 - Exercício01
+
+Exercício
+ 
+--> Adicionar em um projeto já existente ou criar um novo com:
+
+- HTML Semântico
+- CSS Reset
+- Usar um ou mais elementos com position absolute ou fixed
+- Usar display flex para posicionar elementos na tela.
+- Estilizar um ou mais elementos com :hover

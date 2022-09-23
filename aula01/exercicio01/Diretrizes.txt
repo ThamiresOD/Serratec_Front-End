@@ -1,0 +1,18 @@
+ Exercício
+
+--> Adicionar ao projeto que já estava sendo feito ou criar um novo com:
+
+- Usar tags de titulo (h1, h2, h3 ...)
+- Usar paragrafo
+- Título na página (no HEAD)
+- Uma imagem
+- Link para redirecionar para uma outra tela HTML
+- Link para redirecionar para um site
+- Uma lista (ordenada ou não ordenada)
+
+--> Desafio
+
+- Para quem tiver interesse, adicionar: 
+- Input com label
+- Botão
+- Procurar mais tags HTML para adicionar

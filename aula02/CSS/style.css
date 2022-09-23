@@ -1,0 +1,19 @@
+h1 {
+    color: beige; background-color: #201c1c;
+    font-size: 60px;
+}
+        
+p {
+    text-align: justify;
+    text-indent: 50px;
+    color:beige;
+    font-size: medium;
+}
+        
+body {
+    background-color:#201c1c;
+}
+   
+#rodape {
+    margin-right: 100px;
+}

@@ -1,0 +1,40 @@
+FrontEnd - Aula03
+
+Link de apoio: https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065
+
+Display: block;
+Características:
+Ocupa 100% da largura do elemento pai.
+Ocupa sempre sua própria linha e é posicionado sempre abaixo do elemento superior.
+A altura é definida de acordo com o conteúdo interno.
+É possível definir width e height.
+É possível definor valores de margint-top e margin-bottom.
+
+Elementos com display block:
+div
+section
+p
+h1, h2...
+ul
+li
+
+
+Display: inline; 
+Características:
+Ocupa a largura total do seu conteúdo apenas.
+Um elemento inline após o outro ocupa a mesma linha.
+Não é possível definir width e height.
+Não é possível definor valores de margint-top e margin-bottom.
+
+Elementos com display inline:
+a
+span
+strong
+
+
+Display: inline-block;
+O display: inline-block vai ser uma mistura dos comportamentos dos displays inline e block.
+
+Características:
+Comparado com o display inline, a maior diferença do display inline-block é que ele permite definir width e height e margin/padding top e bottom.
+Comparado ao display block, a maior diferença do display inline-block é que ele não quebra linha quando colocado ao lado de um elemento, sendo assim o elemento consegue ficar do lado de outros elementos.
