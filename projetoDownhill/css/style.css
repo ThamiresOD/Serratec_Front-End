@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+body {
+    background-color: #201c1c;
+    color: beige;
+}

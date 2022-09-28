@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 8vh;
+
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+#teste2 {
+    display: none;
+}
+
+@media (max-width: 1000px) and (max-height: 300px) {
+    header {
+        width: 10vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    #teste2 {
+        display: block;
+    }
+
+    #teste {
+        display: none;
+    }
+    
+}
+
+#menu {
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu > img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#title_container {
+    border: 1px solid blue;
+}
+
+#title_container > h1 {
+    font-size: 1rem;  
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 2rem;
+    }
+}
+
+#title_container > h2 {
+    font-size: 16px;
+}
+
+#links {
+    width: 60%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links_container {
+    width: 50%;
+    border: 1px solid blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#links_container > a {
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#configuracao {
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#configuracao > img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#configuracao > img:nth-child(3) {
+    border-radius: 50%;
+}
+
+#banner_section {
+    width: 100vw;
+    height: 25vh;
+    border: 1px solid red;
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    width: 50%;
+    height: 80%;
+    border: 1px solid green;
+    background-image: url('./img/banner.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#banner > div > h1,
+#banner > div > h2{
+    color: #fff;
+}
+
+#banner > button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(247, 120, 8);
+}
+
+@media screen {
+    
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    font-size: 8px;
+    background-color: grey;
+}
+
+#meet {
+    display: flex;
+    justify-content: flex-start;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(91, 201, 235);
+    font-size: 15px;
+}
+
+.icone {
+    display: block;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 5vh;
+    background-color: blueviolet;
+    margin: left ;
+
+
+    
+}
+
+#meet.caixa_lateral {
+    display: flex;
+    justify-content: column;
+    background-color: bisque;
+    height: 100%;
+}

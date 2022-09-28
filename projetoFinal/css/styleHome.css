@@ -1,0 +1,251 @@
+
+/*Ordenação:*/
+
+/* Reset */
+
+/* Estilização do carregamento da página */
+/* Efeito de rolagem da página */
+/* Ocultação da barra de rolagem horizontal */
+/* Estilização da barra de rolagem lateral */
+
+/* Estilização NavBar */
+
+/* Orientação section - Voos */
+/* Orientação section - Sobre */
+/* Orientação section - Destinos */
+
+
+/*Guia de cores:*/
+/* .color1 { #665c52 }; // marron
+.color2 { #74b3a7 }; //azul
+.color3 { #a3ccaf }; //verde
+.color4 { #e6e1cf }; //bege
+.color5 { #cc5b14 }; // laranja*/ 
+
+/* Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilização do carregamento da página */
+
+.fadeIn {
+    animation: fadeIn 1s linear;
+}
+@keyframes fadeIn {
+    from{ opacity: 0;
+    }
+    to{ opacity: 1; 
+    }
+}
+
+/* Efeito de rolagem da página */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #222224;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    
+}
+ /* Ocultação da barra de rolagem horizontal */
+/* body { 
+    overflow-x: hidden; 
+} */
+
+/* Estilização da barra de rolagem lateral */
+
+body::-webkit-scrollbar {
+    width: 1vw;
+} 
+
+body::-webkit-scrollbar-thumb {   
+    background-color: #665c52;   
+    border-radius: 20px;
+}
+body::-webkit-scrollbar-thumb {   
+    background-color: #665c52;   
+    border-radius: 20px;
+}
+
+/* Estilização NavBar */
+
+header {
+    width: 100vw;
+}
+
+
+/* Orientação section - Voos */
+
+#voos {
+    display: flex;
+    justify-content: flex-start;
+    width: 85vw;
+    height: 40vh;
+    margin: 2vh auto 1vh auto;
+    padding: auto;
+    border-radius: 5px;
+
+    background-color: #a3ccaf;
+}
+
+#voos:hover {
+
+}
+
+.pesquisaVoos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 40vh;
+    margin: auto;
+    padding: auto;
+
+    border: solid #cc5b14;
+    background-color: #74b3a7;
+}
+
+
+/* Orientação section - Sobre */
+
+#sobre {
+    display: flex;
+    justify-content: flex-start;
+    width: 85vw;
+    height: 40vh;
+    margin: 2vh auto 1vh auto;
+    padding: 2px;
+    border-radius: 5px;
+
+    background-color: #a3ccaf;
+}
+
+.imgSobre {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40vw;
+
+    background-color: #74b3a7;
+}
+
+.tituloSobre {
+    display: inline-block;
+    position: absolute;
+    position: relative;
+    width: 50vw;
+    height: 20%;
+    padding-left: 15px;
+
+    background-color: #3c9181;
+}
+
+.descriSobre {
+    display: flex;
+    justify-content: flex-start;
+    width: 55vw;
+    height: 31vh;
+    margin: auto;
+    padding: 2px;
+
+    background-color: #a3ccaf;
+}
+
+
+/* Orientação section - Destinos */
+
+#destinos {
+    display: block;
+    width: 85vw;
+    height: 90vh;
+    margin: 2vh auto 1vh auto;
+    padding: 2px;
+    border-radius: 5px;
+
+    background-color: #a3ccaf;
+}
+
+
+.tituloDestinosPrincipal {
+    display: inline-block;
+    margin: 2px;
+    justify-content: left;
+    width: 100vw;
+    height: 5%;
+}
+
+#menuDeDestinos {
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    margin: 2vh auto 1vh auto;
+    padding: 4px;
+    width: 75vw;
+    height: 80%;
+    border-radius: 5px;
+
+    background-color: #cc5b14;
+}
+
+
+#destino {
+    display: block;
+    margin: 5px;
+    margin-top: 2vh;
+    padding: auto;
+    padding: 2px;
+    width: 30vw;
+    height: 95%;
+    border-radius: 5px;
+
+    background-color: #74b3a7;
+}
+
+
+/* Orientação imagem do destino e título */
+
+.imgDestino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+
+    background-color: #665c52;
+}
+
+.imgDestino > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tituloDestinos > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    color: #222224;
+
+}
+
+/* Orientação Footer */
+
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 85vw;
+    height: 40vh;
+    margin: 2vh auto 1vh auto;
+    padding: 2px;
+    border-radius: 5px;
+
+    background-color: #a3ccaf;
+}
+
